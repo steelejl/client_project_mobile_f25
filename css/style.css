@@ -1,0 +1,292 @@
+nav ul:hover{
+     border: 2px dashed ; 
+}
+nav ul:focus{
+     border: 2px dashed border;
+}
+nav ul{
+    list-style: none;
+}
+
+nav{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+    background-color:#00274C;
+    font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif;
+}
+
+
+ul a{
+    color: #FFCB05;
+}
+
+/* skip to main */
+.skip-main{
+    position: absolute;
+    top: -1000px;
+}
+/* header details */
+header{
+    background-color:#00274C
+}
+header img{
+    width: 100%;
+    height: auto
+}
+
+nav a.active{
+  color: whitesmoke; 
+  border: 2px dashed whitesmoke; /* underline indicator */
+  font-weight: bold;
+}
+
+/* .container{
+    display: grid; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 13px;
+}  */
+
+
+/* index/home page */
+.index-img{
+    max-width: 100%;
+    height: auto
+}
+
+.start img{
+    max-width: 100%;
+    height: auto;
+}
+.start{
+    background-color: #00274C;
+    
+}
+.start ul{
+    list-style: none;
+    text-align: left;
+}
+
+.start h2{
+    color: #FFCB05;
+}
+
+.youtube-container iframe {
+        width: 100%;
+        height: auto;
+        border: none; /* Optional: remove iframe border */
+}
+.why-use ul{
+    font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif;
+}
+/* index resources */
+.resources ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 5%;
+    column-gap: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    overflow-wrap: break-word;
+    list-style: none;
+    align-items: end
+}
+
+.resources img{
+    width: 100%;
+    height: auto;
+}
+.resources a{
+    text-align: center;
+}
+.resources li{
+    border: 2px solid #00274C;
+    gap: 5px;
+}
+
+
+
+.connect h2{
+    padding-top: 10%;
+    margin-top: 10%;
+}
+
+/* networking page */
+.networking img{
+    width: 100%;
+    height: auto;
+
+}
+.connections img{
+    width: 100%;
+    height: auto;
+    max-width: 370px;
+}
+
+.networking h3 ul{
+    font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif; 
+
+}
+
+.networking h4 ul{
+    font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif; 
+
+}
+
+.ul-one{
+    font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif; 
+
+}
+.ul-two{
+    font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif; 
+
+}
+.ul-three{
+    font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif; 
+
+}
+.ul-four{
+    font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif; 
+
+}
+.ul-five{
+    font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif; 
+
+}
+.warm-lead ul{
+    font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif; 
+}
+
+.connections h4{
+    font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif; ;
+
+}
+
+
+/* resume page */
+.resume h2{
+    font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif;
+}
+
+.resume p{
+    font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif;
+}
+
+.resume-writing{
+    font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif;
+}
+.resume-resources{
+    font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif;
+}
+
+.resume-faq{
+    font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif;
+}
+
+.resume-employer{
+    font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif;
+}
+
+
+/* Star prep page fonts */
+.what-is-star img{
+    width: 100%;
+    height: auto;
+}
+.what-is-star h1{
+    font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif;
+}
+.what-is-star h2{
+    font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif;
+}
+.what-is-star h3{
+    font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif;
+}
+.what-is-star p{
+    font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif;
+}
+.what-is-star ul {
+    font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif;
+}
+.what-is-star li{
+    font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif;
+}
+.nested-list {
+    font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif;
+}
+
+/* star prep page general */
+.main-content h1{
+    background-color: #FFCB05;
+}
+
+.use-it img{
+    width: 100%;
+    height: auto;
+}
+.star-grid ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-auto-rows: 1fr;
+    gap: 1rem;
+    list-style: none;
+    padding: 1rem; 
+    margin: 0 auto;
+    max-width: 900px; /* optional: limit width so cards stay nicely square on large screens */
+}
+
+.star-grid .card{
+    box-sizing: border-box;
+    background-color: goldenrod;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #00274C;
+    border-radius: 6px;
+    aspect-ratio: 1 / 1; /* forces square shape without media queries */
+}
+
+.star-grid .card h3{
+    margin: 0 0 0.5rem 0;
+    font-size: 1.25rem;
+}
+
+.star-grid .card p{
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+
+
+/* general */
+p{
+    font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif;
+}
+
+h1{
+    font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif;
+    text-align: center;
+    background-color: #FFCB05;
+}
+
+h2{
+    font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif;
+}
+h3{
+    font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif
+}
+
+.footer img{
+    max-width: 100%;
+    height: auto;
+}
+.footer{
+    font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif;
+    /* border:2px solid #FFCB05; */
+    background-color: #989C97;
+    text-align: center;
+}
+
+
