@@ -1,8 +1,8 @@
 
-body{
+/* body{
     font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif;
     
-}
+} */
 
 nav ul:hover{
      border: 2px dashed ; 
@@ -38,8 +38,9 @@ ul a{
 /* skip to main */
 .skip-main{
     position: absolute;
-    top: -1000px;
+    top: -10000px;
 }
+
 /* header details */
 header{
     background-color:#00274C
@@ -402,23 +403,23 @@ h2{
     background-color: lightblue;
 }
 
-.ul-one{
+.one{
     font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif; 
 
 }
-.ul-two{
+.two{
     font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif; 
 
 }
-.ul-three{
+.three{
     font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif; 
 
 }
-.ul-four{
+.four{
     font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif; 
 
 }
-.ul-five{
+.five{
     font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif; 
 
 }
@@ -429,6 +430,9 @@ h2{
 .connections h4{
     font-family: Roboto, Helvetica, Arial, Nimbus Sans L, sans-serif; ;
 
+}
+.warm-lead ul a{
+    color: #00274C;
 }
 
 
@@ -524,6 +528,9 @@ h2{
     width: 100%;
     height: auto;
 }
+.use-it a{
+    color: #00274C;
+}
 .star-grid ul{
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 columns */
@@ -616,6 +623,9 @@ h3{
     text-align: center;
 }
 
+a{
+    color: #00274C;
+}
 a::after{
     color:#702082;
 }
